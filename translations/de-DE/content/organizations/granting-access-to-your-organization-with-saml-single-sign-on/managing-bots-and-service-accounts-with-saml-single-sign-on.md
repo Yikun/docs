@@ -1,15 +1,16 @@
 ---
 title: Bots und Dienstkonten mit SAML Single-Sign-On verwalten
-intro: Organisationen, für die SAML Single-Sign-On aktiviert ist, können den Zugriff von Bots und Dienstkonten beibehalten.
+intro: 'Organisationen, für die SAML Single-Sign-On aktiviert ist, können den Zugriff von Bots und Dienstkonten beibehalten.'
 product: '{% data reusables.gated-features.saml-sso %}'
 redirect_from:
   - /articles/managing-bots-and-service-accounts-with-saml-single-sign-on
   - /github/setting-up-and-managing-organizations-and-teams/managing-bots-and-service-accounts-with-saml-single-sign-on
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - organisationen
-  - teams
+  - Organizations
+  - Teams
+shortTitle: Manage bots & service accounts
 ---
 
 Um den Zugriff für Bots und Dienstkonten beizubehalten, können die Organisationsadministratoren SAML Single Sign-On für ihre Organisation [aktivieren](/articles/enabling-and-testing-saml-single-sign-on-for-your-organization), aber **nicht** [erzwingen](/articles/enforcing-saml-single-sign-on-for-your-organization). Wenn Du SAML Single Sign-On für Deine Organisation erzwingen musst, kannst Du eine externe Identität für den Bot oder das Dienstkonto bei Deinem Identitätsanbieter (IdP) erstellen.
@@ -20,6 +21,6 @@ Um den Zugriff für Bots und Dienstkonten beizubehalten, können die Organisatio
 
 {% endwarning %}
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 - „[Informationen zum Identitäts- und Zugriffsmanagement mit SAML Single-Sign-On](/articles/about-identity-and-access-management-with-saml-single-sign-on)“

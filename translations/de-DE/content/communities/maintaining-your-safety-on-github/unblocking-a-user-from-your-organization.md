@@ -1,13 +1,14 @@
 ---
 title: Sperre eines Benutzers für Deine Organisation aufheben
-intro: 'Organisationsinhaber können die Sperre eines zuvor blockierten Benutzers aufheben. Damit wird dessen Zugriff auf die Repositorys der Organisation wiederhergestellt.'
+intro: Organisationsinhaber können die Sperre eines zuvor blockierten Benutzers aufheben. Damit wird dessen Zugriff auf die Repositorys der Organisation wiederhergestellt.
 redirect_from:
   - /articles/unblocking-a-user-from-your-organization
   - /github/building-a-strong-community/unblocking-a-user-from-your-organization
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - community
+  - Community
+shortTitle: Unblock from your org
 ---
 
 Nach der Aufhebung der Sperre kann der Benutzer wieder zu den Repositorys der Organisation beitragen.
@@ -20,21 +21,21 @@ Wenn Du beim blockieren des Benutzers einen bestimmten Zeitraum für die Sperre 
 
 {% endtip %}
 
-### Sperre eines Benutzers für einen Kommentar aufheben
+## Sperre eines Benutzers für einen Kommentar aufheben
 
 1. Navigiere zu dem Kommentar, dessen Verfassers Du entsperren möchtest.
 2. Klicke rechts oben im Kommentar auf {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %} und anschließend auf **Unblock user** (Benutzer entsperren). ![Horizontales 3-Punkte-Symbol und Menü zum Moderieren der Unterhaltung mit der Option zum Entsperren eines Benutzers](/assets/images/help/repository/comment-menu-unblock-user.png)
 3. Klicke zur Bestätigung der Aufhebung der Sperre auf **Okay**.
 
-### Sperre eines Benutzers in den Organisationseinstellungen aufheben
+## Sperre eines Benutzers in den Organisationseinstellungen aufheben
 
-{% data reusables.profile.access_profile %}
+
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.organizations.block_users %}
 5. Klicke unter „Blocked users“ (Blockierte Benutzer) neben dem Benutzer, dessen Sperre Du aufheben möchtest, auf **Unblock** (Entsperren). ![Schaltfläche „Unblock User" (Sperre des Benutzers aufheben)](/assets/images/help/organizations/org-unblock-user-button.png)
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 - „[Einen Benutzer für Deine Organisation blockieren](/communities/maintaining-your-safety-on-github/blocking-a-user-from-your-organization)“
 - „[Benutzer für Dein persönliches Konto blockieren](/communities/maintaining-your-safety-on-github/blocking-a-user-from-your-personal-account)“

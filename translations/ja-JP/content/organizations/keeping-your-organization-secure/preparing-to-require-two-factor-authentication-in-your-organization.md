@@ -1,18 +1,19 @@
 ---
 title: Organization で 2 要素認証の義務化を準備する
-intro: '2 要素認証を義務化する前に、予定されている変更についてユーザに通知し、どのユーザーが 2 要素認証をすでに使用しているかを確認することができます。'
+intro: 2 要素認証を義務化する前に、予定されている変更についてユーザに通知し、どのユーザーが 2 要素認証をすでに使用しているかを確認することができます。
 redirect_from:
   - /articles/preparing-to-require-two-factor-authentication-in-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/preparing-to-require-two-factor-authentication-in-your-organization
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
+  fpt: '*'
+  ghes: '*'
 topics:
-  - organizations
-  - teams
+  - Organizations
+  - Teams
+shortTitle: 2FAを必須とする準備
 ---
 
-Organization で 2 要素認証を義務付ける 1 週間以上前に、{% if currentVersion == "free-pro-team@latest" %}Organization のメンバー、外部コラボレーター、支払いマネージャー {% else %}Organization のメンバーと外部コラボレーター{% endif %}に通知することをおすすめします。
+Organization で 2 要素認証を義務付ける 1 週間以上前に、{% ifversion fpt %}Organization のメンバー、外部コラボレーター、支払いマネージャー {% else %}Organization のメンバーと外部コラボレーター{% endif %}に通知することをおすすめします。
 
 Organization で 2 要素認証を必須にすると、2 要素認証を使わないメンバー、外部コラボレーター、および支払いマネージャー (ボットアカウントを含む) は Organization から削除され、そのリポジトリにアクセスできなくなります。 Organization のプライベートリポジトリのフォークへのアクセスも失います。
 

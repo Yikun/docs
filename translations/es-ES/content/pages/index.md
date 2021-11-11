@@ -1,5 +1,5 @@
 ---
-title: GitHub Pages Documentation
+title: Documentación de GitHub Pages
 shortTitle: Páginas de GitHub
 intro: 'Puedes crear un sitio web directamente desde un repositorio de {% data variables.product.product_name %}.'
 redirect_from:
@@ -13,13 +13,14 @@ redirect_from:
   - /github/working-with-github-pages
 product: '{% data reusables.gated-features.pages %}'
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
 topics:
-  - páginas
+  - Pages
+children:
+  - /getting-started-with-github-pages
+  - /setting-up-a-github-pages-site-with-jekyll
+  - /configuring-a-custom-domain-for-your-github-pages-site
 ---
 
-{% link_with_intro /getting-started-with-github-pages %}
-{% link_with_intro /setting-up-a-github-pages-site-with-jekyll %}
-{% link_with_intro /configuring-a-custom-domain-for-your-github-pages-site %}

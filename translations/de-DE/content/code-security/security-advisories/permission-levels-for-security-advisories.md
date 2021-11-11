@@ -1,17 +1,21 @@
 ---
 title: Berechtigungsstufen für Sicherheitshinweise
-intro: Welche Aktionen Du in einem Sicherheitshinweis durchführen kannst, hängt davon ab, ob Du Administrations- oder Schreibberechtigungen für den Sicherheitshinweis hast.
+intro: 'Welche Aktionen Du in einem Sicherheitshinweis durchführen kannst, hängt davon ab, ob Du Administrations- oder Schreibberechtigungen für den Sicherheitshinweis hast.'
 redirect_from:
   - /articles/permission-levels-for-maintainer-security-advisories
   - /github/managing-security-vulnerabilities/permission-levels-for-maintainer-security-advisories
   - /github/managing-security-vulnerabilities/permission-levels-for-security-advisories
 versions:
-  free-pro-team: '*'
+  fpt: '*'
+type: reference
 topics:
-  - sicherheit
+  - Security advisories
+  - Vulnerabilities
+  - Permissions
+shortTitle: Permission levels
 ---
 
-### Überblick über die Berechtigungen
+## Überblick über die Berechtigungen
 
 {% data reusables.repositories.security-advisory-admin-permissions %} Weitere Informationen zum Hinzufügen eines Mitarbeiter zu einem Sicherheitshinweis findest Du unter [Einen Mitarbeiter zu einem Sicherheitshinweis hinzufügen](/github/managing-security-vulnerabilities/adding-a-collaborator-to-a-security-advisory)."
 
@@ -29,7 +33,7 @@ topics:
 | Den Entwurf des Sicherheitshinweises schließen                                                                                                                                                                                                                                         |                        | X                           |
 | Den Sicherheitshinweis veröffentlichen (siehe „[Einen Sicherheitshinweis veröffentlichen](/github/managing-security-vulnerabilities/publishing-a-security-advisory)")                                                                                                                  |                        | X                           |
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 - „[Einen Mitarbeiter zu einem Sicherheitshinweis hinzufügen](/github/managing-security-vulnerabilities/adding-a-collaborator-to-a-security-advisory)"
 - „[Zusammenarbeit in einer temporären privaten Fork, um eine Sicherheitslücke zu beheben](/github/managing-security-vulnerabilities/collaborating-in-a-temporary-private-fork-to-resolve-a-security-vulnerability)"

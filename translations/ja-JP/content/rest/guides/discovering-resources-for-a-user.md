@@ -5,11 +5,12 @@ redirect_from:
   - /guides/discovering-resources-for-a-user/
   - /v3/guides/discovering-resources-for-a-user
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
 topics:
-  - api
+  - API
+shortTitle: ユーザのリソースを見つける
 ---
 
  
@@ -18,13 +19,13 @@ topics:
 
 {% data variables.product.product_name %} APIとやり取りを行うため、ここでは[Octokit.rb][octokit.rb]を使用します。 このプロジェクトの完全なソースコードは、[platform-samples][platform samples]リポジトリにあります。
 
-### はじめましょう
+## はじめましょう
 
 まだ[「認証の基本」][basics-of-authentication]ガイドを読んでいない場合は、それを読んでから以下の例に取り組んでください。 以下の例は、[OAuthアプリケーションを登録済み][register-oauth-app]で、[アプリケーションがユーザのOAuthトークンを持っている][make-authenticated-request-for-user]ことを前提としています。
 
-### アプリケーションでアクセス可能なユーザのリポジトリを調べる
+## アプリケーションでアクセス可能なユーザのリポジトリを調べる
 
-ユーザは、個人でリポジトリを所有する他に、別のユーザやOrganizationが所有するリポジトリのコラボレータであることもあります。 Collectively, these are the repositories where the user has privileged access: either it's a private repository where the user has read or write access, or it's a {% if currentVersion != "github-ae@latest" %}public{% else %}internal{% endif %} repository where the user has write access.
+ユーザは、個人でリポジトリを所有する他に、別のユーザやOrganizationが所有するリポジトリのコラボレータであることもあります。 まとめると、ユーザが権限を持ってアクセスできるリポジトリがあります。それはユーザが読み取りあるいは書き込みアクセスを持つプライベートリポジトリであったり、ユーザが書き込み権限を持つ{% ifversion not ghae %}パブリック{% else %}インターナル{% endif %}リポジトリであったりします。
 
 アプリがユーザのどのリポジトリにアクセスできるかを決めるのは、[OAuthスコープ][scopes]および[Organizationのアプリケーションポリシー][oap]です。 以下のワークフローを使用して、これらのリポジトリを調べます。
 
@@ -61,7 +62,7 @@ client.repositories.each do |repository|
 end
 ```
 
-### アプリケーションがアクセス可能なユーザのOrganizationを調べる
+## アプリケーションがアクセス可能なユーザのOrganizationを調べる
 
 アプリケーションは、ユーザに対してOrganizationに関するあらゆるタスクを実行できます。 アプリケーションがタスクを実行するには、必要な権限を持つ[OAuth認証][scopes] が必要です。 たとえば、`read:org`スコープでは[Teamのリストを取得][list-teams]でき、`user`スコープでは[ユーザのOrganizationに属するメンバーを取得][publicize-membership]できます。 ユーザがこれらのスコープのうちの1つ以上をアプリケーションに付与すると、ユーザのOrganizationをフェッチする準備が整います。
 
@@ -89,11 +90,11 @@ client.organizations.each do |organization|
 end
 ```
 
-#### Return all of the user's organization memberships
+### ユーザのすべてのOrganizationメンバーシップを返す
 
 このドキュメントを端から端まで読んだ方は、[ユーザのパブリックなOrganizationに属するメンバーを取得するAPIメソッド][list-public-orgs]に気付いたかもしれません。 ほとんどのアプリケーションでは、このAPIメソッドを避けるべきです。 このメソッドは、ユーザのパブリックなOrganizationに属するメンバーだけを返し、プライベートなOrganizationに属するメンバーは返しません。
 
-As an application, you typically want all of the user's organizations that your app is authorized to access. 上記のワークフローでは、まさにこれを実行しています。
+アプリケーションでは通常、アクセスを認可されたすべてのユーザのOrganizationが求められます。 上記のワークフローでは、まさにこれを実行しています。
 
 [basics-of-authentication]: /rest/guides/basics-of-authentication
 [list-public-orgs]: /rest/reference/orgs#list-organizations-for-a-user

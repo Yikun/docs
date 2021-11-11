@@ -1,10 +1,10 @@
 ---
-title: '{% data variables.product.product_name %}{% if currentVersion == "free-pro-team@latest" %}.com{% endif %} Documentación de Ayuda'
+title: '{% data variables.product.product_name %}{% ifversion fpt %}.com{% endif %} Documentación de Ayuda'
 featuredLinks:
   gettingStarted:
     - /github/getting-started-with-github/set-up-git
     - /github/authenticating-to-github/connecting-to-github-with-ssh
-    - /github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github
+    - /repositories/creating-and-managing-repositories
     - /github/writing-on-github/basic-writing-and-formatting-syntax
   popular:
     - /github/collaborating-with-issues-and-pull-requests/about-pull-requests
@@ -13,5 +13,47 @@ featuredLinks:
     - /github/getting-started-with-github/managing-remote-repositories
     - /github/working-with-github-pages
 versions: '*'
+children:
+  - get-started
+  - account-and-profile
+  - authentication
+  - repositories
+  - github
+  - admin
+  - billing
+  - organizations
+  - code-security
+  - issues
+  - actions
+  - codespaces
+  - packages
+  - search-github
+  - developers
+  - rest
+  - graphql
+  - github-cli
+  - discussions
+  - sponsors
+  - communities
+  - pages
+  - education
+  - desktop
+  - early-access
+externalProducts:
+  atom:
+    id: atom
+    name: Atom
+    href: 'https://atom.io/docs'
+    external: true
+  electron:
+    id: electron
+    name: Electron
+    href: 'https://electronjs.org/docs'
+    external: true
+  codeql:
+    id: codeql
+    name: CodeQL
+    href: 'https://codeql.github.com/docs'
+    external: true
 ---
 

@@ -1,22 +1,23 @@
 ---
 title: Einen externen Mitarbeiter zu einem Projektboard in Deiner Organisation hinzufügen
-intro: 'Als Organisationsinhaber oder Projektboard-Administrator kannst du einen externen Mitarbeiter zu einem Projektboard hinzufügen und seine Berechtigungen anpassen.'
+intro: Als Organisationsinhaber oder Projektboard-Administrator kannst du einen externen Mitarbeiter zu einem Projektboard hinzufügen und seine Berechtigungen anpassen.
 redirect_from:
   - /articles/adding-an-outside-collaborator-to-a-project-board-in-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/adding-an-outside-collaborator-to-a-project-board-in-your-organization
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
 topics:
-  - organisationen
-  - teams
+  - Organizations
+  - Teams
+shortTitle: Add a collaborator
 ---
 
 Ein externer Mitarbeiter ist eine Person, die nicht explizit Mitglied Deiner Organisation ist, aber auf ein Projektboard in Deiner Organisation zugreifen kann.
 
-{% data reusables.profile.access_profile %}
 {% data reusables.profile.access_org %}
+{% data reusables.user_settings.access_org %}
 {% data reusables.organizations.organization-wide-project %}
 {% data reusables.project-management.select-project %}
 {% data reusables.project-management.click-menu %}

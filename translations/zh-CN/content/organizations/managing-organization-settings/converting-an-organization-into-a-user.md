@@ -1,18 +1,19 @@
 ---
 title: 将组织转换为用户
-intro: '无法将组织转换为个人用户帐户，但您可以创建一个新用户帐户，然后将组织的仓库转让给该帐户。'
+intro: 无法将组织转换为个人用户帐户，但您可以创建一个新用户帐户，然后将组织的仓库转让给该帐户。
 redirect_from:
   - /articles/converting-an-organization-into-a-user
   - /github/setting-up-and-managing-organizations-and-teams/converting-an-organization-into-a-user
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
+  fpt: '*'
+  ghes: '*'
 topics:
-  - 组织
-  - 团队
+  - Organizations
+  - Teams
+shortTitle: 将组织转换为用户
 ---
 
-{% if currentVersion == "free-pro-team@latest" %}
+{% ifversion fpt %}
 
 1. [注册](/articles/signing-up-for-a-new-github-account)新 GitHub 用户帐户。
 2. [将用户的角色更改为所有者](/articles/changing-a-person-s-role-to-owner)。

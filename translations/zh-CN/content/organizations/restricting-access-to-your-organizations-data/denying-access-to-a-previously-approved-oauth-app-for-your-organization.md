@@ -6,15 +6,15 @@ redirect_from:
   - /articles/denying-access-to-a-previously-approved-oauth-app-for-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/denying-access-to-a-previously-approved-oauth-app-for-your-organization
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - 组织
-  - 团队
+  - Organizations
+  - Teams
+shortTitle: 拒绝 OAuth 应用程序
 ---
 
-{% data reusables.profile.access_profile %}
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.organizations.oauth_app_access %}
 5. 在要禁用的应用程序旁边，单击 {% octicon "pencil" aria-label="The edit icon" %}。 ![编辑图标](/assets/images/help/settings/settings-third-party-deny-edit.png)
 6. 单击 **Deny access（拒绝访问）**。 ![拒绝确认按钮](/assets/images/help/settings/settings-third-party-deny-confirm.png)

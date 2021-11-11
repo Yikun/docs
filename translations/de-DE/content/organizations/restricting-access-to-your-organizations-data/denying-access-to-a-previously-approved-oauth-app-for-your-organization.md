@@ -6,15 +6,15 @@ redirect_from:
   - /articles/denying-access-to-a-previously-approved-oauth-app-for-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/denying-access-to-a-previously-approved-oauth-app-for-your-organization
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - organisationen
-  - teams
+  - Organizations
+  - Teams
+shortTitle: Deny OAuth App
 ---
 
-{% data reusables.profile.access_profile %}
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.organizations.oauth_app_access %}
 5. Klicken Sie neben der Anwendung, die Sie deaktivieren möchten, auf {% octicon "pencil" aria-label="The edit icon" %}. ![Symbol für Bearbeiten](/assets/images/help/settings/settings-third-party-deny-edit.png)
 6. Klicke auf **Deny access** (Zugriff verweigern). ![Schaltfläche „Deny confirmation" (Bestätigen der Verweigerung)](/assets/images/help/settings/settings-third-party-deny-confirm.png)

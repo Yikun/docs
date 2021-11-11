@@ -4,13 +4,14 @@ intro: Organization の Team がレビューをリクエストされたすべて
 redirect_from:
   - /github/setting-up-and-managing-organizations-and-teams/managing-scheduled-reminders-for-your-organization
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - organizations
-  - teams
+  - Organizations
+  - Teams
+shortTitle: スケジュールされたリマインダーの管理
 ---
 
-### プルリクエストのスケジュールされたリマインダーについて
+## プルリクエストのスケジュールされたリマインダーについて
 
 {% data reusables.reminders.about-scheduled-reminders-teams-orgs %}
 
@@ -18,10 +19,9 @@ Organization のオーナーは、Team がレビューをリクエストされ�
 
 {% data reusables.reminders.scheduled-reminders-limitations %}
 
-### Organization のスケジュールされたリマインダーを作成する
-{% data reusables.profile.access_profile %}
+## Organization のスケジュールされたリマインダーを作成する
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.reminders.scheduled-reminders %}
 ![[Scheduled reminders] ボタン](/assets/images/help/organizations/scheduled-reminders-org.png)
 {% data reusables.reminders.add-reminder %}
@@ -42,25 +42,23 @@ Organization のオーナーは、Team がレビューをリクエストされ�
 {% data reusables.reminders.required-labels %}
 {% data reusables.reminders.create-reminder %}
 
-### Organization のスケジュールされたリマインダーを管理する
-{% data reusables.profile.access_profile %}
+## Organization のスケジュールされたリマインダーを管理する
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.reminders.scheduled-reminders %}
 ![[Scheduled reminders] ボタン](/assets/images/help/organizations/scheduled-reminders-org.png)
 {% data reusables.reminders.edit-existing %}
 {% data reusables.reminders.edit-page %}
 {% data reusables.reminders.update-buttons %}
 
-### Organization のスケジュールされたリマインダーを削除する
-{% data reusables.profile.access_profile %}
+## Organization のスケジュールされたリマインダーを削除する
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.reminders.scheduled-reminders %}
 ![[Scheduled reminders] ボタン](/assets/images/help/organizations/scheduled-reminders-org.png)
 {% data reusables.reminders.delete %}
 
-### 参考リンク
+## 参考リンク
 
 - [スケジュールされたリマインダーの管理](/github/setting-up-and-managing-your-github-user-account/managing-your-scheduled-reminders)
 - [Team のスケジュールされたリマインダーを管理する](/organizations/organizing-members-into-teams/managing-scheduled-reminders-for-your-team)

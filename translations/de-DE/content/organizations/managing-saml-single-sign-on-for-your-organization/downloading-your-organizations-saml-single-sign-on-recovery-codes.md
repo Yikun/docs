@@ -7,17 +7,17 @@ redirect_from:
   - /github/setting-up-and-managing-organizations-and-teams/downloading-your-organizations-saml-single-sign-on-recovery-codes
 product: '{% data reusables.gated-features.saml-sso %}'
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - organisationen
-  - teams
+  - Organizations
+  - Teams
+shortTitle: Download SAML recovery codes
 ---
 
-Wiederherstellungscode sollten nicht öffentlich gemacht und nicht weitergegeben werden. Wir empfehlen, sie mit einem Passwort-Manager wie [LastPass](https://lastpass.com/), [1Password](https://1password.com/) oder [Keeper](https://keepersecurity.com/) zu speichern.
+Wiederherstellungscode sollten nicht öffentlich gemacht und nicht weitergegeben werden. We recommend saving them with a password manager such as [LastPass](https://lastpass.com/) or [1Password](https://1password.com/).
 
-{% data reusables.profile.access_profile %}
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.organizations.security %}
 5. Klicke im Hinweis zu Wiederherstellungscodes unter „SAML single sign-on“ (SAML Single Sign-On) auf **Save your recovery codes** (Deine Wiederherstellungscodes speichern). ![Link zum Anzeigen und Speichern Deiner Wiederherstellungscodes](/assets/images/help/saml/saml_recovery_codes.png)
 6. Speichere Deine Wiederherstellungscodes, indem Du auf **Download** (Herunterladen), **Print** (Drucken) oder **Copy** (Kopieren) klickst. ![Schaltflächen zum Herunterladen, Drucken oder Kopieren Deiner Wiederherstellungscodes](/assets/images/help/saml/saml_recovery_code_options.png)
@@ -30,7 +30,7 @@ Wiederherstellungscode sollten nicht öffentlich gemacht und nicht weitergegeben
 
 7. Wenn Sie einen Wiederherstellungscode genutzt haben, um wieder Zugriff auf {% data variables.product.product_name %} zu erhalten, können Sie diesen Code nicht mehr verwenden. Der Zugriff auf {% data variables.product.product_name %} ist nur 24 Stunden lang verfügbar, bevor Sie dazu aufgefordert werden, sich mit Single Sign-On anzumelden.
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 - „[Informationen zum Identitäts- und Zugriffsmanagement mit SAML Single-Sign-On](/articles/about-identity-and-access-management-with-saml-single-sign-on)“
 - „[Zugriff auf Deine Organisation bei nicht verfügbarem Identitätsanbieter](/articles/accessing-your-organization-if-your-identity-provider-is-unavailable)“

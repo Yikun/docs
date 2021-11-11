@@ -1,13 +1,15 @@
 ---
 title: 迁移
+intro: 'The Migration API lets you migrate the repositories and users of your  organization from {% data variables.product.prodname_dotcom_the_website %} to {% data variables.product.prodname_ghe_server %}.'
 redirect_from:
   - /v3/migrations
   - /v3/migration
   - /v3/migration/migrations
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - api
+  - API
+miniTocMaxHeadingLevel: 3
 ---
 
 {% for operation in currentRestOperations %}
@@ -16,7 +18,7 @@ topics:
 
 ## 组织
 
-迁移 API 仅适用于经过身份验证的组织所有者。 For more information, see "[Permission levels for an organization](/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization#permission-levels-for-an-organization)" and "[Other authentication methods](/rest/overview/other-authentication-methods)."
+迁移 API 仅适用于经过身份验证的组织所有者。 更多信息请参阅“[组织的权限级别](/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization#permission-levels-for-an-organization)”和“[其他身份验证方法](/rest/overview/other-authentication-methods)”。
 
 {% data variables.migrations.organization_migrations_intro %}
 

@@ -4,10 +4,13 @@ shortTitle: Security overview
 intro: 'View, sort, and filter the security alerts from across your organization in one place.'
 product: '{% data reusables.gated-features.security-center %}'
 versions:
-  free-pro-team: '*'
-  github-ae: 'nächste'
+  fpt: '*'
+  ghae: issue-4554
+  ghes: '>3.1'
+topics:
+  - Security overview
+  - Advanced Security
+children:
+  - /about-the-security-overview
 ---
 
-### Inhaltsverzeichnis
-
-{% link_in_list /exploring-security-alerts %}

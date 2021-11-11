@@ -5,11 +5,12 @@ redirect_from:
   - /articles/removing-a-billing-manager-from-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/removing-a-billing-manager-from-your-organization
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - organisationen
-  - teams
-  - Abrechnung
+  - Organizations
+  - Teams
+  - Billing
+shortTitle: Abrechnungsmanager entfernen
 ---
 
 {% warning %}
@@ -18,8 +19,5 @@ topics:
 
 {% endwarning %}
 
-{% data reusables.profile.access_profile %}
-{% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
-{% data reusables.organizations.billing %}
-5. Klicke in der Liste der Abrechnungsmanager neben dem Namen der Person, die Du entfernen möchtest, auf {% octicon "x" aria-label="X symbol" %}. ![Abrechnungsmanager entfernen](/assets/images/help/billing/settings_billing_managers_remove_manager.png)
+{% data reusables.organizations.billing-settings %}
+1. In the "Billing managers" list under "Billing management", next to the name of the person you want to remove, click **Remove**. ![Abrechnungsmanager entfernen](/assets/images/help/billing/settings_billing_managers_remove_manager.png)

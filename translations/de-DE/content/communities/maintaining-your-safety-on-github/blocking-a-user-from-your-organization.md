@@ -1,13 +1,14 @@
 ---
 title: Einen Benutzer für Deine Organisation blockieren
-intro: Organisationsinhaber können einen Benutzer blockieren, damit dieser nicht mehr an den Repositorys der Organisation mitarbeiten kann.
+intro: 'Organisationsinhaber können einen Benutzer blockieren, damit dieser nicht mehr an den Repositorys der Organisation mitarbeiten kann.'
 redirect_from:
   - /articles/blocking-a-user-from-your-organization
   - /github/building-a-strong-community/blocking-a-user-from-your-organization
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - community
+  - Community
+shortTitle: Block from your org
 ---
 
 Du kannst einen Benutzer über die Einstellungen Deiner Organisation oder über einen bestimmten Kommentar dieses Benutzers blockieren. Wenn Du einen Benutzer in einem Kommentar blockierst, kannst Du auswählen, dem Benutzer eine Benachrichtigung über die Sperre und den Grund dazu zu senden. Andernfalls wird er nicht direkt über die Sperre informiert. Blocked users can still delete their existing content.
@@ -38,7 +39,7 @@ Außerdem können blockierte Benutzer in den Repositorys Deiner Organisation nic
 - Kommentare auf Issues, Pull Requests oder Commits erstellen
 - Wiki-Seiten hinzufügen oder bearbeiten
 
-### Benutzer in einem Kommentar blockieren
+## Benutzer in einem Kommentar blockieren
 
 1. Navigiere zum Kommentar, dessen Verfasser Du blockieren möchtest.
 2. Klicke oben rechts im Kommentar auf {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %} und anschließend auf **Block user** (Benutzer blockieren). ![Das horizontale 3-Punkte-Symbol und Menü zum Moderieren der Unterhaltung, das die Option zur Sperre eines Benutzers zeigt](/assets/images/help/repository/comment-menu-block-user.png)
@@ -47,18 +48,18 @@ Außerdem können blockierte Benutzer in den Repositorys Deiner Organisation nic
 5. Wenn Du den Benutzer darüber informieren möchtest, warum er blockiert wird, wähle **Send a notification to this user** (Benachrichtigung an diesen Benutzer senden). ![Option zum Versenden einer Benachrichtigung im Dropdownmenü „Block user“ (Benutzer blockieren)](/assets/images/help/organizations/org-block-options-menu-send-notification.png)
 6. Um den Benutzer zu blockieren, wähle **Block user from organization** (Benutzer für die Organisation blockieren) oder **Block user from organization and send message** (Benutzer für die Organisation blockieren und Nachricht senden). ![Schaltfläche „Block user“ (Benutzer blockieren)](/assets/images/help/organizations/org-block-user-button-in-comment.png)
 
-### Benutzer in den Einstellungen der Organisation blockieren
+## Benutzer in den Einstellungen der Organisation blockieren
 
 1. Um ein Mitglied einer Organisation zu blockieren, [entferne den Benutzer](/articles/removing-a-member-from-your-organization) zunächst aus der Organisation.
-{% data reusables.profile.access_profile %}
+
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profile.org_settings %}
 {% data reusables.organizations.block_users %}
 6. Gib unter „Block a user“ (Einen Benutzer blockieren) den Benutzernamen der Person ein, die Du blockieren möchtest. ![Feld für Benutzernamen](/assets/images/help/organizations/org-block-username-field.png)
 7. Wenn Du die Sperre zeitlich beschränken möchtest, wähle aus dem Dropdownmenü mit den Sperr-Optionen den Zeitraum aus, für den Du den Benutzer blockieren möchtest. ![Dropdownmenü „Block options“ (Optionen für das Blockieren)](/assets/images/help/organizations/org-block-options-menu.png)
 8. Klicke auf **Block user** (Benutzer blockieren). ![Schaltfläche „Block" (blockieren)](/assets/images/help/organizations/org-block-user-button.png)
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 - „[Für Deine Organisation blockierte Benutzer anzeigen](/communities/maintaining-your-safety-on-github/viewing-users-who-are-blocked-from-your-organization)“
 - „[Sperre eines Benutzers für Deine Organisation aufheben](/communities/maintaining-your-safety-on-github/unblocking-a-user-from-your-organization)“

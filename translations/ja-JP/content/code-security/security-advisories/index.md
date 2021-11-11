@@ -1,26 +1,27 @@
 ---
-title: Managing security advisories for vulnerabilities in your project
+title: プロジェクト中の脆弱性に関するセキュリティアドバイザリの管理
 shortTitle: セキュリティアドバイザリ
-intro: 'Discuss, fix, and disclose security vulnerabilities in your repositories using security advisories.'
+intro: セキュリティアドバイザリを利用したリポジトリ内のセキュリティ脆弱性に関する議論、修正、開示
 redirect_from:
   - /articles/managing-security-vulnerabilities-in-your-project
   - /github/managing-security-vulnerabilities/managing-security-vulnerabilities-in-your-project
 versions:
-  free-pro-team: '*'
+  fpt: '*'
 topics:
-  - セキュリティ
+  - Security advisories
+  - Vulnerabilities
+  - Repositories
+  - CVEs
+children:
+  - /about-coordinated-disclosure-of-security-vulnerabilities
+  - /about-github-security-advisories
+  - /permission-levels-for-security-advisories
+  - /creating-a-security-advisory
+  - /adding-a-collaborator-to-a-security-advisory
+  - /removing-a-collaborator-from-a-security-advisory
+  - /collaborating-in-a-temporary-private-fork-to-resolve-a-security-vulnerability
+  - /publishing-a-security-advisory
+  - /editing-a-security-advisory
+  - /withdrawing-a-security-advisory
 ---
 
-### 目次
-
-{% link_in_list /adding-a-security-policy-to-your-repository %}
-{% link_in_list /about-coordinated-disclosure-of-security-vulnerabilities %}
-{% link_in_list /about-github-security-advisories %}
-{% link_in_list /permission-levels-for-security-advisories %}
-{% link_in_list /creating-a-security-advisory %}
-{% link_in_list /adding-a-collaborator-to-a-security-advisory %}
-{% link_in_list /removing-a-collaborator-from-a-security-advisory %}
-{% link_in_list /collaborating-in-a-temporary-private-fork-to-resolve-a-security-vulnerability %}
-{% link_in_list /publishing-a-security-advisory %}
-{% link_in_list /editing-a-security-advisory %}
-{% link_in_list /withdrawing-a-security-advisory %}

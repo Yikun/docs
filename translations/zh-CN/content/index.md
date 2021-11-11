@@ -1,10 +1,10 @@
 ---
-title: '{% data variables.product.product_name %}{% if currentVersion == "free-pro-team@latest" %}.com{% endif %} 帮助文档'
+title: '{% data variables.product.product_name %}{% ifversion fpt %}.com{% endif %} 帮助文档'
 featuredLinks:
   gettingStarted:
     - /github/getting-started-with-github/set-up-git
     - /github/authenticating-to-github/connecting-to-github-with-ssh
-    - /github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github
+    - /repositories/creating-and-managing-repositories
     - /github/writing-on-github/basic-writing-and-formatting-syntax
   popular:
     - /github/collaborating-with-issues-and-pull-requests/about-pull-requests
@@ -14,28 +14,32 @@ featuredLinks:
     - /github/working-with-github-pages
 versions: '*'
 children:
+  - get-started
+  - account-and-profile
+  - authentication
+  - repositories
   - github
-  - 管理员
-  - 组织
+  - admin
+  - billing
+  - organizations
   - code-security
-  - 操作
-  - 包
+  - issues
+  - actions
+  - codespaces
+  - packages
+  - search-github
   - developers
   - rest
   - graphql
-  - insights
-  - 讨论
-  - 社区
-  - 页面
-  - 教育版
-  - 电脑版
+  - github-cli
+  - discussions
+  - sponsors
+  - communities
+  - pages
+  - education
+  - desktop
   - early-access
 externalProducts:
-  cli:
-    id: cli
-    name: GitHub CLI
-    href: 'https://cli.github.com/manual'
-    external: true
   atom:
     id: atom
     name: Atom
@@ -48,7 +52,7 @@ externalProducts:
     external: true
   codeql:
     id: codeql
-    name: 'CodeQL'
+    name: CodeQL
     href: 'https://codeql.github.com/docs'
     external: true
 ---

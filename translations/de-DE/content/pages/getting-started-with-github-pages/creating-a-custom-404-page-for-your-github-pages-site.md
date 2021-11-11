@@ -1,17 +1,18 @@
 ---
 title: Eine benutzerdefinierte 404-Seite für Deine GitHub Pages-Website erstellen
-intro: Du kannst eine benutzerdefinierte 404-Fehler-Seite anzeigen lassen, wenn Benutzer versuchen, nicht vorhandene Seiten auf Deiner Website aufzurufen.
+intro: 'Du kannst eine benutzerdefinierte 404-Fehler-Seite anzeigen lassen, wenn Benutzer versuchen, nicht vorhandene Seiten auf Deiner Website aufzurufen.'
 redirect_from:
   - /articles/custom-404-pages/
   - /articles/creating-a-custom-404-page-for-your-github-pages-site
   - /github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 product: '{% data reusables.gated-features.pages %}'
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
 topics:
-  - Seiten
+  - Pages
+shortTitle: Create custom 404 page
 ---
 
 {% data reusables.pages.navigate-site-repo %}
@@ -30,6 +31,6 @@ topics:
 {% data reusables.files.choose_commit_branch %}
 {% data reusables.files.propose_new_file %}
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 - [Front matter](http://jekyllrb.com/docs/frontmatter) (Frontmatter) in der Jekyll-Dokumentation
